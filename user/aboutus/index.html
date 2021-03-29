@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-color: black;
+}
+
+/* styling for navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+  border-right:2px solid #fafcff;
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 23px 36px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #5983ff;
+}
+.active {
+  background-color: #a1c0ff;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url('img_navsprites.gif') 0 0;
+}
+
+
+/* styling for footer */
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #e3ecff;
+   color: #8d9ab8;
+   text-align: center;
+}
+ </style>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+</head>
+<body>
+<ul>
+  <li><a href="../../#home">Home</a></li>
+  <li><a class="active" href="../../user/aboutus/">About Us</a></li>
+  <li style="float:right"><a href="../../user/adminmail/">Contact Us</a></li>
+  <li><a href="../../reg">Register<br></a><li>
+  <li><a href="../../userlogin">Login<br></a><li>
+</ul>
+
+<h1><center>About US</center></h1>
+    
+    <center><textarea rows="5" cols="40">
+    Old Royal Naval College, 
+    Park Row, 
+    London 
+    SE10 9LS
+    020 8331 8000</textarea></center>
+    
+    <iframe src="https://www.google.com/maps/d/embed?mid=1qXbKAjq6CNYvuPRkrGCqj3uwkjc" width="640" height="480"></iframe>
+    
+    <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/UniofGreenwich?ref_src=twsrc%5Etfw">Tweets by UniofGreenwich</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <br><footer>Created by greforum &copy; Copyright 2020</footer>
+    <!--<p><a href="..">Return to CMS home</a></p>-->
+</body>
+</html>
